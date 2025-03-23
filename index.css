@@ -1,0 +1,219 @@
+html, body {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background: white;
+}
+
+header, main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.header-img{
+    display: flex;
+    background-image: url('images/banner.png');
+    width: 600px;
+    height: 167px;
+}
+
+.header-text {
+    color: whitesmoke;
+    font-weight: 500;
+    margin: auto 0 auto auto;
+    padding: 0 20px 20px 0px;
+}
+
+#header-txt-1{
+    font-size: 30px;
+}
+
+#header-txt-2{
+    font-size: 14px;
+}
+.food-body{
+    border-bottom: 1px solid darkgrey;
+    width: 508px;
+    margin: auto;
+    padding: 0;
+}
+.food-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food-descriptions{
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+}
+.food-item, .ingredients, .food-name, #header-txt-1, #header-txt-2{
+    margin: 0;
+    padding: 0;
+}
+.food-item{
+    font-size: 80px;
+}
+
+.food-description-txt{
+    padding-left: 25px;
+}
+
+.food-name{
+    font-size: 22px;
+}
+
+.ingredients{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+.price{
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.add-food{
+    font-size: 30px;
+}
+
+
+.order-body{
+    display: none;
+    flex-direction: column;
+    width: 508px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-big-txt{
+    font-size: 22px;
+    margin: 0;
+}
+
+.order-small-txt{
+    font-size: 12px;
+    margin-left: 12px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.order-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.foodremove{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.total{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+
+.orderBtn{
+    margin: auto;
+    width: 508px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 900;
+    color: whitesmoke;
+    background-color: #16DB99;
+    border: 0;
+    border-radius: 5px;
+}
+
+.order-render{
+    margin-top: 20px
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 530px;
+    width: 508px;
+    box-shadow: 
+        0 0 10px rgba(82, 82, 82, 0.3),
+        0 0 20px rgba(82, 82, 82, 0.2),
+        0 0 40px rgba(82, 82, 82, 0.1);
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+.modal-inner {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+}
+
+input {
+    font-size: 22px;
+    margin-top: 15px; 
+    border: 1px solid #212529;
+    padding: 25px;
+    width: 400px;
+    border-radius: 3px;
+}
+.payment-from{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    border: 0;
+    width: 455px;
+    color: whitesmoke;
+    background-color: #16DB99;
+    padding: 26px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.modal-btn-holder{
+    margin-top: 40px;
+}
+
+h3{
+    font-size: 22px;
+    padding-top: 20px
+}
+
+.orderConfirmation{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 504px;
+    height: 120px;
+    margin: 45px auto;
+    background-color: #ECFDF5;
+}
+
+h4{
+    font-size: 22px;
+    font-weight: 400;
+    color: #065F46;
+}
